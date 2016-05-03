@@ -3,11 +3,26 @@
 <head>
   <title>Segdocs</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <nav></nav>
+  <nav class="pure-u-3-4">
+    <ul>Technical Documentation
+      <li><a href="#home">Library Sources</a></li>
+      <li><a href="#news">Integrations</a></li>
+      <li><a href="#contact">Warehouses</a></li>
+      <li><a href="#about">Cloud App Sources</a></li>
+    Support Articles
+      <li><a href="#home">Overall Structure</a></li>
+      <li><a href="#titles">Titles</a></li>
+      <li><a href="#contact">Headings</a></li>
+      <li><a href="#about">Paragraphs</a></li>
+      <li><a href="#about">Sentences</a></li>
+      <li><a href="#about">Word Choice</a></li>
+    </ul>
+  </nav>
 <%= yield %>
 
 </body>
